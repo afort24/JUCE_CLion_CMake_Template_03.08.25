@@ -1,14 +1,14 @@
-# Ignore build directories and cache
+# Ignore build files and dependencies
 cmake-build-debug/
 build/
 _deps/
-.idea/
-.DS_Store
+libs/juce/
 
 # Ignore CMake intermediate files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 
-# Ignore JUCE submodules
-juce-src/
+# Ignore IDE files
+.idea/
+.DS_Store
